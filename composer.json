@@ -1,0 +1,26 @@
+{
+    "name": "fuadhs88/qc",
+    "description": "Extend Stream CCTV Analisa QC",
+    "type": "library",
+    "keywords": ["Analisa QC", "extension"],
+    "homepage": "https://github.com/fuadhs88/qc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fuadhs",
+            "email": "fuadhs@igg.co.id"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\Qc\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+}
